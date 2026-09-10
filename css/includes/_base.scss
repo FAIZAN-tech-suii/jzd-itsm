@@ -345,9 +345,8 @@ body.in_modal {
 
 .page-anonymous {
     .glpi-logo {
-        --logo: var(--glpi-logo-dark-login);
-
-        content: var(--logo);
+        background: var(--glpi-logo-dark-login) no repeat center;
+        background-size: contain: 
         width: 200px;
         height: 110px;
     }
